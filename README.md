@@ -1,16 +1,12 @@
-# ispy
+# Flutter -- Frontend, Firebase -- Backend
 
-A new Flutter project.
+<li>Use Firebase Auth</li>
+<li>Use Firebase CloudFireStore to store data and use StreamBuilder To fetch Data in Real Time</li>
 
-## Getting Started
+## How To Use
+<li>SignUp and ready to go</li>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/aman246149/flutter-assignment-De/assets/53884276/35c513e2-f7d2-41b2-af27-4978de24a7e8
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
