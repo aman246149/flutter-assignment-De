@@ -6,7 +6,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ispy/theme/apptheme.dart';
 
 import 'bloc/auth/auth_bloc.dart';
-import 'bloc/home/home_bloc.dart';
 import 'firebase_options.dart';
 import 'ui/auth/login.dart';
 import 'ui/home/home.dart';
@@ -44,15 +43,14 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     super.dispose();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
         BlocProvider.value(value: AuthBloc()),
-        BlocProvider.value(value: HomeBloc()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: AppTheme.theme,
         home: StreamBuilder(
           stream: FirebaseAuth.instance.authStateChanges(),
